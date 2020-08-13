@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Great Buys</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="bs4-theme.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container-fluid">
+  <header class="row bg-primary">
+    <nav class="col-12 navbar navbar-expand-sm navbar-dark border-bottom">
+      <a class="navbar-brand" href="#">
+        <h1>Great Buys</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search">
+          <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <div class="col-4 mb-2 items">
+      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-link" href="#Products">Products</a>
+      <a class="nav-link" href="#">Brands</a>
+      <a class="nav-link" href="#">Services</a>
+    </div>
+  </header>
+  <main class="row">
+    <div class="col-12 offset-md-1 col-md-6">
+      <h2>Item Name</h2>
+      <p>Item Model</p>
+      <div class="row text-center product-feature">
+        <img class="col-12" src="http://placehold.it/400x300" alt="">
+        <div class="col-12 add-to-cart">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 mt-3 mt-md-0 offset-md-1 col-md-3">
+      <h2>Item Price</h2>
+      <hr>
+      <div class="btn-group">
+        <button type="button" class="btn btn-warning">Currently Selected</button>
+        <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Option 1</a>
+          <a class="dropdown-item disabled" href="#">Option 2 - (Out of Stock)</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Option 3</a>
+        </div>
+      </div>
+      <hr>
+      <div class="btn-group">
+        <button type="button" class="btn btn-warning">Currently Selected</button>
+        <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu bg-dark">
+          <span class="dropdown-item text-light " href="#">Option 1</span>
+          <span class="dropdown-item disabled text-light " href="#">Option 2 - (Out of Stock)</span>
+          <div class="dropdown-divider"></div>
+          <span class="dropdown-item text-light" href="#">Option 3</span>
+        </div>
+      </div>
+      <hr>
+      <h2>Add-ons</h2>
+      <div class="form-check mt-3">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+          Additional options
+        </label>
+      </div>
+      <div class="form-check mt-3">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+          Additional options
+        </label>
+      </div>
+      <hr>
+      <div class="form-check mt-3">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="" id="" value="checkedValue">
+          Additional options
+        </label>
+      </div>
+
+    </div>
+    <div class="col-12 banner my-3">
+
+    </div>
+  </main>
+  <footer class="row bg-primary ">
+    <div class="col-6 col-md-3">
+      <h3>Orders and Returns</h3>
+      <p>Supporting Info</p>
+    </div>
+    <div class="col-6 col-md-3">
+      <h3>My Great buys</h3>
+      <p>Supporting Info</p>
+      <p>Supporting Info</p>
+    </div>
+    <div class="col-6 col-md-3">
+      <h3>Support and Services</h3>
+      <p>Supporting Info</p>
+    </div>
+    <div class="col-6 col-md-3">
+      <h3>Partnerships</h3>
+      <p>Supporting Info</p>
+    </div>
+  </footer>
+
+
+
+
+  <script src='https://code.jquery.com/jquery-3.2.1.slim.min.js'
+    integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN'
+    crossorigin='anonymous'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js'
+    integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q'
+    crossorigin='anonymous'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'
+    integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl'
+    crossorigin='anonymous'></script>
+</body>
+
+</html>
